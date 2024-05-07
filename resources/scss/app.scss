@@ -1,1 +1,17 @@
 @import '~bootstrap/scss/bootstrap';
+
+
+* {
+	border: 1px dashed black;
+}
+
+:root {
+	--prymary: #0282F9;
+	--ligth: #FFFFFF;
+	--dark: #1C1C1C;
+}
+
+.top_header {
+
+	background-color: var(--prymary);
+}

@@ -1,12 +1,6 @@
 @import '~bootstrap/scss/bootstrap';
 
 
-* {
-	border: 1px dashed black;
-}
-
-
-
 :root {
 	--prymary: #0282F9;
 	--ligth: #FFFFFF;
@@ -14,28 +8,20 @@
 }
 
 
-
 /*********************************************************/
 
 header {
-
-
 
 	.top_header {
 
 		background-color: var(--prymary);
 	}
 
-
-
-
 	.nav_header {
-
 
 		.logo_header {
 			width: 80px;
 		}
-
 
 		.nav_active {
 			color: var(--prymary);
@@ -47,12 +33,8 @@ header {
 			border-bottom: 2px solid var(--prymary);
 		}
 
-
-
 	}
 }
-
-
 
 /*********************************************************/
 
@@ -60,7 +42,6 @@ main {
 
 	background-color: var(--dark);
 	color: var(--ligth);
-
 
 	.img_jumbo {
 		width: 100%;
@@ -79,5 +60,18 @@ main {
 		margin-top: -40px;
 	}
 
+	.bg_card {
+		background-color: var(--dark);
+	}
 
+	img {
+		width: 180px;
+		height: 180px;
+		background-color: var(--dark);
+	}
+
+	.title_card {
+		background-color: var(--dark);
+		color: var(--ligth);
+	}
 }

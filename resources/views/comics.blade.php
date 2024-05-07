@@ -19,7 +19,9 @@
                 </div>
             @endforeach
         </div>
+        <div class="text-center btn_load p-4">
 
-        <button>LOAD MORE</button>
+            <button>LOAD MORE</button>
+        </div>
     </div>
 @endsection

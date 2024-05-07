@@ -1,5 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
 
+* {
+	border: 1px dashed black;
+}
 
 :root {
 	--prymary: #0282F9;
@@ -62,6 +65,7 @@ main {
 
 	.bg_card {
 		background-color: var(--dark);
+		border: none;
 	}
 
 	img {
@@ -85,5 +89,34 @@ main {
 	.bg_banner {
 		background-color: var(--prymary);
 		color: var(--ligth);
+
+	}
+
+	.img_banner {
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 80px;
+		width: 80px;
+
+	}
+
+	.link_b1 {
+		background-image: url('../img/buy-comics-digital-comics.png');
+	}
+
+	.link_b2 {
+		background-image: url('../img/buy-comics-merchandise.png');
+	}
+
+	.link_b3 {
+		background-image: url('../img/buy-comics-subscriptions.png');
+	}
+
+	.link_b4 {
+		background-image: url('../img/buy-comics-shop-locator.png');
+	}
+
+	.link_b5 {
+		background-image: url('../img/buy-comics-shop-locator.png');
 	}
 }

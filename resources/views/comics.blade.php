@@ -25,24 +25,27 @@
         </div>
     </div>
     <div class="bg_banner">
-        <div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-2">
-                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
-                        alt="">
-
+        <div class="container p-4">
+            <div class="row ">
+                <div class="col d-flex align-items-center p-0">
+                    <div class="link_b1 img_banner"></div>
+                    <div>DIGITAL COMICS</div>
                 </div>
-                <div class="col-2">
-                    BANNER 1
+                <div class="col d-flex align-items-center p-0">
+                    <div class="link_b2 img_banner"></div>
+                    <div>DIGITAL COMICS</div>
                 </div>
-                <div class="col-2">
-                    BANNER 1
+                <div class="col d-flex align-items-center p-0">
+                    <div class="link_b3 img_banner"></div>
+                    <div>DIGITAL COMICS</div>
                 </div>
-                <div class="col-2">
-                    BANNER 1
+                <div class="col d-flex align-items-center p-0">
+                    <div class="link_b4 img_banner"></div>
+                    <div>DIGITAL COMICS</div>
                 </div>
-                <div class="col-2">
-                    BANNER 1
+                <div class="col d-flex align-items-center p-0">
+                    <div class="link_b5 img_banner"></div>
+                    <div>DIGITAL COMICS</div>
                 </div>
             </div>
         </div>

@@ -24,4 +24,27 @@
             <button>LOAD MORE</button>
         </div>
     </div>
+    <div class="bg_banner">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-2">
+                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
+                        alt="">
+
+                </div>
+                <div class="col-2">
+                    BANNER 1
+                </div>
+                <div class="col-2">
+                    BANNER 1
+                </div>
+                <div class="col-2">
+                    BANNER 1
+                </div>
+                <div class="col-2">
+                    BANNER 1
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

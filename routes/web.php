@@ -22,5 +22,8 @@ Route::get('/', function () {
 })->name('comics');
 
 Route::get('/info', function () {
-    return view('info');
+
+    $comics = config('db.comics');
+
+    return view('info', compact('comics'));
 })->name('info');

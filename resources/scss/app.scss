@@ -5,13 +5,42 @@
 	border: 1px dashed black;
 }
 
+
+
 :root {
 	--prymary: #0282F9;
 	--ligth: #FFFFFF;
 	--dark: #1C1C1C;
 }
 
+
+
 .top_header {
 
 	background-color: var(--prymary);
+}
+
+
+
+
+.nav_header {
+
+
+	.logo_header {
+		width: 80px;
+	}
+
+
+	.nav_active {
+		color: var(--prymary);
+		border-bottom: 2px solid var(--prymary);
+	}
+
+	.nav_search {
+		color: var(--prymary);
+		border-bottom: 2px solid var(--prymary);
+	}
+
+
+
 }

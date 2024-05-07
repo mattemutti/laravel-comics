@@ -120,3 +120,17 @@ main {
 		background-image: url('../img/buy-comics-shop-locator.png');
 	}
 }
+
+
+
+footer {
+
+
+	.img_footer {
+		background-image: url('../img/footer-bg.jpg');
+		object-fit: cover;
+		object-position: top;
+		width: 100%;
+		height: 500px;
+	}
+}

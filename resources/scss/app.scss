@@ -1,8 +1,8 @@
 @import '~bootstrap/scss/bootstrap';
 
-* {
-	border: 1px dashed black;
-}
+// * {
+// 	border: 1px dashed black;
+// }
 
 :root {
 	--prymary: #0282F9;
@@ -125,12 +125,35 @@ main {
 
 footer {
 
+	background-color: var(--dark);
+
 
 	.img_footer {
 		background-image: url('../img/footer-bg.jpg');
-		object-fit: cover;
+		background-size: cover;
 		object-position: top;
+		background-repeat: no-repeat;
 		width: 100%;
-		height: 500px;
+		height: 400px;
+	}
+
+	.list_footer {
+		color: grey;
+		text-decoration: none;
+		list-style: none;
+
+	}
+
+	.color_title {
+		color: var(--ligth);
+	}
+
+	.footer_bottom {
+		height: 150px;
+
+	}
+
+	.color_bottom {
+		color: var(--prymary);
 	}
 }

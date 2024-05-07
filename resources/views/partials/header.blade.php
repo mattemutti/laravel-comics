@@ -15,7 +15,7 @@
 
     <div class="container nav_header">
         <div class="row justify-content-between g-0">
-            <div class="col-3">
+            <div class="col-2">
 
                 <nav class="navbar ">
                     <div class="container-fluid px-0">
@@ -26,7 +26,7 @@
                     </div>
                 </nav>
             </div>
-            <div class="col-6 d-flex justify-content-center">
+            <div class="col-8 d-flex justify-content-center">
                 <nav class="navbar navbar-expand-lg ">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,7 +36,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link  {{ Route::currentRouteName() === 'comics' ? 'nav_active' : '' }} "
-                                        href="#">COMICS</a>
+                                        href="{{ route('comics') }}">COMICS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">MOVIES</a>
@@ -73,7 +73,7 @@
 
             </div>
 
-            <div class="col-3 text-end align-content-center justify-content-end px-0">
+            <div class="col-2 text-end align-content-center justify-content-end px-0">
 
                 <nav class="navbar">
                     <div class="container-fluid justify-content-end px-0 ">

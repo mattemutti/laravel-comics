@@ -1,5 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Comics Page</h1>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="title mb-5">
+                CURRENT SERIES
+            </div>
+
+        </div>
+        <div class="row">
+
+
+            <div class="col">
+                ciao bastardu
+            </div>
+        </div>
+    </div>
 @endsection

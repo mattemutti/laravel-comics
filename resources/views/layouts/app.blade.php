@@ -19,7 +19,7 @@
 
     @include('partials.header')
 
-    <main class="main">
+    <main>
         @include('partials.jumbo')
         @yield('content')
     </main>

@@ -17,12 +17,10 @@
 
 <body>
 
-
     @include('partials.header')
 
     <main class="main">
         @include('partials.jumbo')
-
         @yield('content')
     </main>
 

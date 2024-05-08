@@ -21,9 +21,10 @@ Route::get('/', function () {
     return view('comics.index', compact('comics'));
 })->name('comics.index');
 
-Route::get('/show', function () {
+Route::get('/show/{id}', function ($id) {
 
-    $comics = config('db.comics');
+    abort_unless($id >= 0 && $id < count(config('db.comics')), 404);
+    $comic = config('db.comics')[$id];
 
-    return view('comics.show', compact('comics'));
+    return view('comics.show', compact('comic'));
 })->name('comics.show');

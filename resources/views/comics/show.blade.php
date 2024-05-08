@@ -1,5 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Info Comic</h1>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6">{{ $comic['series'] }}</div>
+            <div class="col-6">{{ $comic['description'] }}</div>
+
+        </div>
+    </div>
 @endsection

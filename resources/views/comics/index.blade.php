@@ -10,12 +10,14 @@
 
         </div>
         <div class="row">
-            @foreach ($comics as $comic)
+            @foreach ($comics as $index => $comic)
                 <div class="col-2">
-                    <div class="card bg_card">
-                        <img src="{{ $comic['thumb'] }}" alt="">
-                        <h6 class="title_card text-uppercase py-4">{{ $comic['series'] }}</h6>
-                    </div>
+                    <a href="{{ route('comics.show', ['id' => $index]) }}">
+                        <div class="card bg_card">
+                            <img src="{{ $comic['thumb'] }}" alt="image describe {{ $comic['series'] }}">
+                            <h6 class="title_card text-uppercase py-4">{{ $comic['series'] }}</h6>
+                        </div>
+                    </a>
                 </div>
             @endforeach
         </div>

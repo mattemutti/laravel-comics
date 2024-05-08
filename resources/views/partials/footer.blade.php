@@ -1,7 +1,10 @@
 <footer>
 
     <div class="img_footer">
+
+
         <div class="container p-5">
+            <img class="img_dc_footer" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
             <div class="row">
                 <div class="col-2 ">
                     <ul class="list_footer">

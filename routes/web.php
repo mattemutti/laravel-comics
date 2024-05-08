@@ -17,6 +17,8 @@ Route::get('/', function () {
 
     $comics = config('db.comics');
     //dd($comics);
+    $titleNav = config('titleNav.titleNav');
+    //dd($titleNav);
 
     return view('comics.index', compact('comics'));
 })->name('comics.index');

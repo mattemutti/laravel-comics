@@ -1,14 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
 
-// * {
-// 	border: 1px dashed black;
-// }
+* {
+	border: 1px dashed black;
+}
 
 :root {
 	--prymary: #0282F9;
 	--ligth: #FFFFFF;
 	--dark: #1C1C1C;
 	--price: #55BA59;
+	--bg_specifics: #F6F6F6;
 }
 
 
@@ -151,6 +152,11 @@ main {
 		width: 100%;
 	}
 
+}
+
+.specifics {
+	background-color: var(--bg_specifics);
+	color: var(--dark);
 }
 
 

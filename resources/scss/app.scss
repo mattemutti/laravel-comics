@@ -8,6 +8,7 @@
 	--prymary: #0282F9;
 	--ligth: #FFFFFF;
 	--dark: #1C1C1C;
+	--price: #55BA59;
 }
 
 
@@ -137,6 +138,18 @@ main {
 		margin-top: -220px;
 	}
 
+	.price_section {
+		background-color: var(--price);
+		color: var(--ligth);
+		border-bottom: var(--dark);
+		border-right: var(--dark);
+	}
+
+	.img_advertising {
+		object-fit: cover;
+		object-position: top;
+		width: 100%;
+	}
 
 }
 

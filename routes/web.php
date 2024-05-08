@@ -18,12 +18,12 @@ Route::get('/', function () {
     $comics = config('db.comics');
     //dd($comics);
 
-    return view('comics', compact('comics'));
-})->name('comics');
+    return view('comics.index', compact('comics'));
+})->name('comics.index');
 
-Route::get('/info', function () {
+Route::get('/show', function () {
 
     $comics = config('db.comics');
 
-    return view('info', compact('comics'));
-})->name('info');
+    return view('comics.show', compact('comics'));
+})->name('comics.show');

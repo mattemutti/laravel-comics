@@ -35,8 +35,8 @@
                                     <a class="nav-link" aria-current="page" href="#">CHARACTERS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link  {{ Route::currentRouteName() === 'comics' ? 'nav_active' : '' }} "
-                                        href="{{ route('comics') }}">COMICS</a>
+                                    <a class="nav-link  {{ Route::currentRouteName() === 'comics.index' ? 'nav_active' : '' }} "
+                                        href="{{ route('comics.index') }}">COMICS</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">MOVIES</a>

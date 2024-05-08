@@ -25,7 +25,7 @@
                         <div class="py-4 mb-5">{{ $comic['description'] }}</div>
                     </div>
                     <div class="col-3 p-2">
-                        <h6 class="text-end">ADVERTISEMENT</h6>
+                        <h5 class="text-end">ADVERTISEMENT</h5>
                         <div>
                             <img class="img_advertising" src="{{ Vite::asset('resources/img/adv.jpg') }}" alt="">
                         </div>
@@ -85,13 +85,36 @@
                     <div class="d-flex py-4">
 
                         <div class="col-4 border-bottom">
-                            On Sale Date\:
+                            On Sale Date:
                         </div>
                         <div class="col-8 text-uppercase text-primary border-bottom">
                             {{ $comic['sale_date'] }}
                         </div>
                     </div>
 
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-3 d-flex justify-content-between text-secondary py-4">
+                    <h6 class="align-content-center"> DIGITAL COMICS</h6>
+                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
+                        alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between text-secondary py-4">
+                    <h6 class="align-content-center"> SHOP DC</h6>
+                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}"
+                        alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between text-secondary py-4">
+                    <h6 class="align-content-center"> COMIC SHOP LOCATOR</h6>
+                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}"
+                        alt="">
+                </div>
+                <div class="col-3 d-flex justify-content-between text-secondary py-4">
+                    <h6 class="align-content-center"> SUBSCRIPTIONS</h6>
+                    <img class="img_banner" src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}"
+                        alt="">
                 </div>
             </div>
         </div>
